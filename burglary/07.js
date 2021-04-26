@@ -9,6 +9,7 @@ function makeCopy(obj) {
 const obj = { piano: 100 };
 const obj2 = { stereo: 200 };
 const obj3 = { tv: Math.random() };
+// zmiana
 
 Test.assertObjects(makeCopy(obj), obj);
 Test.assertObjects(makeCopy(obj2), obj2);
